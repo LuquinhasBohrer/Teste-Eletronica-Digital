@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap');
+
+
+/*SOBRE A EMPRESA*/
+.sobre-mim {margin-top: -21px; display: flex; flex-direction: column; align-items: center; padding: 100px 50px; background: linear-gradient( #030721, rgb(192, 191, 191), rgb(203, 212, 241) );}
+.sobre-mim h3 {font-size: 3.5rem; margin-bottom: 50px; color: #fff; text-align: center;}
+.sobre-mim p {max-width: 800px; margin-bottom: 70px; color: #000; text-align: center; font-size: 29px;}
+.sobre-mim hr {width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none;}
+.sobre-mim .btn {background-color: #0a2446; border-radius: 4px; color: #ffffff; padding: 20px 50px; text-transform: uppercase; align-items: center; justify-content: center;}
+

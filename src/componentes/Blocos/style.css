@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  /*  COLUMN SETUP  */
+  .col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+  }
+  .col:first-child { margin-left: 0; }
+  
+  /*  GROUPING  */
+  .group:before,
+  .group:after { content:""; display:table; }
+  .group:after { clear:both;}
+  .group { zoom:1; /* For IE 6/7 */ }
+  
+  /*  GRID OF TWO  */
+  .span_2_of_2 {
+    width: 100%;
+  }
+  .span_1_of_2 {
+    width: 49.2%;
+  }
+  
+  /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+  
+  #blocos {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+  }
+
+  .colunas {
+    margin-top: -21px;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(rgb(203, 212, 241), rgb(222, 234, 255));
+    color: #fff;
+    text-align: center;
+    height: 350px;
+  }
+
+  .colunas h2 {
+    color: #000;
+  }
+  .colunas p {
+    color: #000;
+  }
+
+  @media (max-width: 800px) {
+    .colunas {width: 100%;}
+    #blocos { display: flex;  right: 0px; align-items: center; justify-content: center; position: fixed; flex-flow: column;}
+  
+  }
+
+  @media (max-width: 500px) {
+    .colunas {width: 100%;}
+    #blocos { display: flex;  right: 0px; align-items: center; justify-content: center; position: fixed; flex-flow: column;}
+
+  }
+
+  @media (max-width: 400px) {
+    .colunas {width: 100%;}
+    #blocos { position:fixed; display: flex; align-items: center; justify-content: center; padding: 0 20px 0 20px; flex-flow: column;}
+    
+  }

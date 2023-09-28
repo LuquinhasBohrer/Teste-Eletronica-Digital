@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+   /*Empresas*/
+.cursos {margin-top: -21px; background: linear-gradient(#C3CBE7,rgb(159, 176, 231) ); display: flex; flex-direction: column; align-items: center; padding: 100px 50px;}
+.cursos h3 {font-size: 4rem; margin-bottom: 35px; color: rgb(0, 0, 0); text-align: center;}
+.cursos p {font-size: 24px; max-width: 800px; margin-bottom: 35px; color: rgb(0, 0, 0); text-align: center;}
+.cursos hr {width: 200px; height: 2px; background-color: rgb(255, 255, 255); margin-bottom: 70px; border: none; flex-direction: column;}
+
+.cursos .grid {width: 100%; display: flex;}
+.cursos .grid li {padding: 0px 30px; text-align: center; list-style: none;}
+.cursos .grid li  #sd {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+.cursos .grid li  .ta {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+.cursos .grid li  #stetsom {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+.cursos .grid li  .jfa {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+.cursos .final {margin-top: 125px; width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none; flex-direction: column; }
+.cursos .grid li h4 {font-size: 2rem; color: #3d3f41; margin-bottom: 30px;}
+.cursos .grid li p {font-size: 20px; color: rgb(43, 57, 102); flex-direction: column; justify-content: center; text-align: center;}
+.cursos .btn {background-color: #dddddd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
+@media ( max-width: 999px) {
+    .cursos .grid {flex-direction: column;}
+    .cursos img { width: 50%; height: 50%;}
+}
+
+  /*Empresas*/
+  .empresas {background: linear-gradient(rgb(159, 176, 231), #2a6ad8, rgb(222, 234, 255)); display: flex; flex-direction: column; align-items: center; padding: 100px 50px; }
+  .empresas h3 {font-size: 2rem; margin-bottom: 35px; color: #fff; text-align: center;}
+  .empresas p {max-width: 800px; margin-bottom: 35px; color: #fff; text-align: center;}
+  .empresas hr {width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none; flex-direction: column;}
+  
+  .empresas .grade {width: 100%; display: flex; margin-top: -120px;}
+  .empresas .grade li {padding: 0px 30px; text-align: center; list-style: none;}
+  .empresas .grade li  #planatc {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+  .empresas .grade li  #kitec {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+  .empresas .grade li  #agl {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 70%; height: 30%;}
+  .empresas .grade li  .jfa {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center; width: 50%; height: 30%;}
+  .empresas .final {margin-top: 125px; width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none; flex-direction: column; }
+  .empresas .grade li h4 {font-size: 2rem; color: #3d3f41; margin-bottom: 30px;}
+  .empresas .grade li p {font-size: 20px; color: #fff; flex-direction: column; justify-content: center; text-align: center;}
+  .empresas .btn {background-color: #dddddd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
+  @media ( max-width: 999px) {
+      .empresas .grade {flex-direction: column;}
+  }

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap');
+
+
+/*ONDE ESTAMOS*/
+.info { display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background: linear-gradient(rgb(203, 212, 241), rgb(222, 234, 255));}
+.mapa hr { align-items: center; width: 200px; height: 2px; background-color: #000; margin-bottom: 95px; border: none; right: 850px; position: absolute;}
+.mapa h3 {align-items: center; font-size: 3.5rem; margin-bottom: 75px; color: rgb(0, 0, 0); text-align: center; bottom: 15px; right: 250px;}
+.mapa iframe {  width: 100%;
+  height: 450px;
+  border: 1px solid #000;
+  border-radius: 20px;}
+.mapa p {position: absolute; right: 650px; bottom: -1090px; font-size: 25px; color: #000; }
+
+@media (max-width: 1600px) {
+  .mapa p {
+    right: 200px;
+  }
+  .mapa hr {
+    right: 140px;
+    width: 700px;
+    
+  }
+  .mapa h3 {
+    position: static;
+    margin-left: 540px;
+  }
+}
+
+@media (max-width: 1400px){
+  .mapa {position: static;}
+  .mapa h3 {align-items: center; font-size: 3.5rem; margin-bottom: 55px; color: #000; text-align: center; bottom: 15px; right: 15px; margin-left: 600px;}
+  .mapa p {position: absolute; right: 40px; bottom: -1050px; font-size: 22px; color: #000; }
+  .mapa hr { align-items: center; width: 200px; height: 2px; background-color: #000; margin-bottom: 70px; border: none; right: 276px; position: absolute; margin-top: 0px;}
+  .mapa iframe {left: 10px; border-radius: 10px; bottom: 150px; border: 1rem; border-color: #000; width: 600px; height: 450px;}
+
+}
+
+@media (max-width: 1300px) {
+  .mapa hr {align-items: center; width: 200px; height: 2px; background-color: #000; margin-bottom: 70px; border: none; right: 240px; position: absolute;}
+  .mapa p {position: absolute; right: 100px; bottom: -1050px; font-size: 24px; color: #000; }
+}
+
+@media (max-width: 1280px) {
+  .mapa p {right: 17px;
+  font-size: 19px;}
+}
+
+@media (max-width: 1080px) {
+  .mapa p {opacity: 1; top: 1450px; left: 0px;}
+  .mapa iframe {margin-left:20px; margin-top: 125px; width: 450px; height: 650px;}
+  .mapa hr {top: 1550px; margin-left: 0px; left: 440px; color: #000;}
+  .mapa h3 {color: #000; align-items: center; justify-content: center; position: absolute; top: 1450px; margin-right: 460px;}
+}
+
+@media (max-width: 1050px) {
+  .mapa h3 { right: -25px; top: 1300px; align-items: center; font-size: 3.5rem; margin-bottom: 150px; color: rgb(0, 0, 0); text-align: center; bottom: 15px; position: absolute; ;}
+  .mapa hr {top: 1400px; margin-left: 0px; left: 405px;}
+  .mapa iframe {left: -50px;}
+  }
+
+@media (max-width: 999px) {
+    .info {align-items: center;}
+    .mapa p {position: absolute; bottom: -1530px; font-size: 25px; color: #000; align-items: center; justify-content: center;  margin-left: 100px;}
+    .mapa iframe {width: 450px; height: 350px;}
+    .mapa hr {align-items: center; width: 200px; height: 2px; background-color: #000; margin-bottom: 70px; border: none; margin-left: 0px;}
+}
+
+@media (max-width: 500px) {
+    .mapa { align-items: center; top: 1500px;}
+    .mapa h3 {align-items: center; margin-right: 150px; top: 2000px;}
+    .mapa p {opacity: 0;}
+    .mapa hr {opacity: 0;}
+    .mapa iframe {width: 350px; height: 250px; flex-direction: column; right: 15px; align-items: center; justify-content: center; margin-left: 0px; top: 1000px;} 
+    .mapa hr {align-items: center; width: 200px; height: 2px; background-color: #000; margin-bottom: 70px; border: none; margin-left: 0px; top: 10px; right: 150px;}
+}
+
+@media (max-width: 400px) {
+  .mapa h3 {top: 800px;}
+  .mapa hr {opacity: 0;}
+}
+
+/*CONTATOS*/
+.contato {display: flex; align-items: center; justify-content: center;}
+.contato ul {list-style: none; bottom: 158px;}
+.contato ul li {color: #000; align-items: center; justify-content: center; right: 50px; margin-top: 20px;}
+.contato h2 {color: #000; font-size: 30px;}
+.contato ul li i {size: 24px;}
+.contato .celular p {color: #000; align-items: center; justify-content: center; size: 24px; display: unset; font-size: 24px;}
+.contato .telefone p {color:rgb(0, 0, 0); display: flex; align-items: center; justify-content: center; size: 24px; display: unset; font-size: 24px;}
+.contato .email p {color: #000; align-items: center; justify-content: center; size: 20px; display: unset; font-size: 24px; cursor: pointer; margin-top: 20px;}
+
+@media (max-width: 1600px) {
+  .contato {
+    right: 380px;
+    top: 1920px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .contato h2 {margin-right: 20px;}
+  .contato {position: absolute; right: 00px; top: 1700px;}
+  .contato ul li {color: #000; align-items: center; justify-content: center; right: 0px; }
+}
+
+@media (max-width: 1300px) {
+  .contato {position: absolute; right: -5px; top: 1975px;}
+}
+
+@media (max-width: 1280px) {
+  .contato {
+    right: 0px;
+    font-size: 17px;
+  }
+  .contato h2 {
+    position: absolute;
+    margin-bottom: 250px;
+    left: 80px;
+    margin-top: 20px;
+  }
+  .contato ul li .email {
+    right: 50px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .contato {opacity: 1; top: 1800px; left: 0px;}
+  .contato h2 {position: absolute; left: 700px;}
+  .contato ul {margin-top: 30px; left: 500px;}
+  .contato .celular{position: absolute; right: 62px; margin-bottom: 15px;}
+  .contato .telefone {position: absolute; right: 90px; margin-top: 20px;}
+  .contato .email {right: 0px; position: absolute; bottom: -70px; margin-top: 20px; font-size:17px;}
+}
+
+@media (max-width: 999px) {
+  .contato {opacity: 0;}
+}
+
+  @media (max-width: 500px) {
+    .contato {opacity: 0;}
+  }
+
+
+  
+
+
